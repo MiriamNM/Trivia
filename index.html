@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Trivia</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+
+<body>
+	<!--Primer página-->
+	<div id='volverAlInicio'>
+    <h1>TRIVIAS POTTERICAS</h1>
+    <script src="script.js"></script>
+		<h2> ¡Hola magx! </h2>
+		<img src= 'https://cdn.shopify.com/s/files/1/0281/1340/4013/articles/Hogwarts-1200x801_540x.jpg?v=1597131755'> 
+       <!--
+       <p><input type=’text’ name=’name’ id=’name’
+       Placeholder= ‘Juan perez’
+       Autofocus     
+       Autocomplete
+       required>   
+       </p> 
+       <p> Ingresa tu nombre </p> -->
+       <!-- Falta botón para ingresar a la siguiente pagina-->
+     
+  <section>
+    <article class="inicio">
+      <h2>!Tenemos dos trivias para ti!</h2> 
+    </article>
+    
+    <article>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+     </div>
+
+  <!--Magxs-->
+  <div id="triviaMagos">
+       <h1>¡Bienvenido a la trivia de Magxs!</h1>
+    <h2>Pregunta 1</h2>
+    <p>Su segundo nombre es Jean. Es hija de muggles (ambos dentistas).  A los once años descubrió su don mágico y fue aceptada en el Colegio Hogwarts de Magia y Hechicería. Posee una mente académica brillante, y demostró ser una estudiante superdotada. Sus mejores amigos son Harry Potter y Ron Weasley.</p>
+    
+     
+      <input type="radio" name="magos1" value="incorrecto"/>Bellatrix Lestrange<br>
+      <input type="radio" name="magos1" value="incorrecto"/>Lili Potter<br>
+      <input type="radio" name="magos1" value="correcto"/>Hermione Greanger<br>
+  
+    <form>
+       
+       <!--<input type="button" id="btn" value="Submit" href="#pregunta2">> </a>-->
+       <Button> <a href="#pregunta2">Siguiente</a></Button>
+    </form>
+  </div>
+
+
+  <div id="pregunta2"> 
+    <h1>Pregunta 2</h1>
+    <p>Tiene cuatro nombres, tres de ellos son: Percival Wulfric Brian. Se desempeñó como Jefe Supremo de la Confederación Internacional de Magos y como Jefe de Magos del Wizengamot. Era un mago de sangre mestiza, considerado como el mago más poderoso de su época, famoso por derrotar a Gellert Grindelwald, por descubrir doce usos de la sangre de dragón y por su trabajo en alquimia con Nicolas Flamel.</p>
+  
+      <input type="radio" name="magos2" value="incorrecto"/>Severus Snape<br>
+      <input type="radio" name="magos2" value="incorrecto"/>Tom Ryddle<br>
+      <input type="radio" name="magos2" value="correcto"/>Albus Dombledore<br>
+    <form>
+       <Button> <a href="#pregunta3">Siguiente</a></Button>
+    </form>
+    
+  </div>
+
+ <div id="pregunta3"> 
+    <h1>Pregunta 3</h1>
+    <p>Fue estudiante de Hogwarts y pertenece a la casa fe Gryffindor. En Hogwarts ha mostrado gran liderazgo desempeñando un personaje muy importante. Es unx animagx, tomando la forma de un gato gris.</p>
+    
+      <input type="radio" name="magos3" value="incorrecto"/>Hagrid<br>
+      <input type="radio" name="magos3" value="incorrecto"/>Voldemort<br>
+      <input type="radio" name="magos3" value="correcto"/>Minerva McGonagall<br>
+
+      
+    <form>
+       <Button> <a href="#pregunta4">Siguiente</a></Button>
+    </form>
+  </div> 
+
+ <div id="pregunta4"> 
+    <h1>Pregunta 4</h1>
+    <p>Fue estudiante de Hogwarts y pertenece a la casa fe Gryffindor. Su destino está atado con el mago tenebroso.</p>
+    
+      <input type="radio" name="magos4" value="incorrecto"/>Draco Malfoy<br>
+      <input type="radio" name="magos4" value="incorrecto"/>Dobby<br>
+      <input type="radio" name="magos4" value="correcto"/>HarryPotter<br>
+
+    <button class="submit" onclick="return handleClick();" type="submit">Finalizar</button>
+  </div> 
+
+   <!--Rerultados-->
+  <div>
+  <h1>¡Excelente, Digno de Hogwarts!</h1>
+  <img src= 'https://64.media.tumblr.com/24d9b412c099704372e97738c0caa74a/tumblr_nqob35mDdF1sg49umo2_250.gifv'> 
+  <p>Rita Skeeter jamás podría confundirte con las notas amarillistas que publica en el diario El Profeta. Conoces muy bien a los grandes magos y a las mejores hechiceras del mundo mágico. Unx estudiante digno de la confianza de Albus Dumbledore. </p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+  <div>
+  <h1>Aprendiz comprometido</h1>
+  <img src= 'https://media.giphy.com/media/26gN16cJ6gy4LzZSw/giphy.gif'> 
+  <p>Vaya que conoces el mundo mágico pero se nos están pasando algunos detalles. Recuerda que conocer mejor  bien a tus lxs grandes mxgos del mundo mágico serán la clave para saber a quién pedirle ayuda en momentos de gran dificultad. Sigue así.</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+  <div>
+  <h1>¡Alerta, recordadora roja!</h1>
+  <img src= 'https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2015/09/21/Recortada/64896-106576-anigif-optimized-5751-1430058081-1-500-207-20150921220001@LaVanguardia-Web.gif'> 
+  <p>Menos mal que llevas una recordadora contigo, seguro que olvidas las cosas con facilidad. El lío ahora será saber ¿qué es exactamente lo que olvidaste?
+Pero calma, si te sigues juntando con los amigos correctos en Hogwarts, seguro te ayudarán bastante con eso.</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+   
+  <div>
+  <h1>Empezando en el mundo mágico, eh?</h1>
+  <img src= 'https://media.giphy.com/media/YSs8N4iWa5Jzq/giphy.gif'> 
+  <p>Vemos que has abordado el Expresso de Hogwarts, pero no dudamos que te ha costado recordar que tenías que abordarlo en la plataforma 9 ¾ . No te preocupes, seguro que seguirás conociendo más de los magos y hechiceras más famosos de mundo mágico. Te espera un asombroso viaje. 
+</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+ <div>
+  <h1>¿¿¿¿HARRY QUIÉN????</h1>
+  <img src= 'https://media.giphy.com/media/55d4cDB5zXccQlA8Ig/giphy.gif'> 
+  <p>¡Por las barbas de Merlín! ¿Acaso nunca has escuchado nada de lxs hechicerxs más famosxs del mundo mágico?
+Más vale que que los conozcas pronto o podríamos empezar a sospechar que eres del mundo muggle.
+Nunca es demasiado tarde para empezar a ser una bruja o un mago de excelencia.
+</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+
+  <!--Encantamientos-->
+  <div id="triviaEncantamientos"> 
+    <h1>¡Bienvenido a la trivia de  Encantamientos!</h1>
+    <h2>Pregunta 1</h2>
+    <p>También conocido como el maleficio asesino. es una maldición y uno de los hechizos de magia negra más poderosos y siniestros del mundo mágico. Cuando es lanzada correctamente sobre una persona o criatura viva, la maldición asesina causa una muerte instantánea e indolora, sin dejar signos de violencia en el cuerpo. Debido a que su efecto es irreversible, es clasificada como una de las tres Maldiciones Imperdonables.</p>
+ 
+     <input type="radio" name="encantamientos1" value="incorrecto"/>Imperius<br>
+      <input type="radio" name="encantamientos1" value="incorrecto"/>Cruciatus<br>
+      <input type="radio" name="encantamientos1" value="correcto"/>Avada Kadavra<br>
+    <form>
+       <Button> <a href="#preguntA2">Siguiente</a></Button>
+    </form>
+  </div>
+
+  <div id='preguntA2'> 
+    <h1>Pregunta 2</h1>
+    <p>Este antiguo y misterioso encantamiento conjura un guardián mágico, una proyección de todos tus sentimientos alegres.”Es la protección principal contra dementores y lethifolds, ante los cuales no existe otra defensa. Pregunta 2</p>
+      <input type="radio" name="encantamientos2" value="incorrecto"/>Wingardium Leviosa<br>
+      <input type="radio" name="encantamientos2" value="correcto"/>Expecto Patronum<br>
+      <input type="radio" name="encantamientos2" value="incorrecto"/>Expelliarmus<br>
+      
+    <form>
+       <Button> <a href="#preguntA3">Siguiente</a></Button>
+    </form>
+  </div>
+
+ <div id='preguntA3'> 
+   <h1>Pregunta 3</h1>
+   <p>Proviene del latín y significa "expulsar arma". Es un hechizo sencillo pero de gran utilidad, ya que desarma al oponente y hace que la varita vuele lejos de su dueño.</p>
+      <input type="radio" name="encantamientos3" value="correcto"/>Expelliarmus<br>
+      <input type="radio" name="encantamientos3" value="incorrecto"/>Expecto Patronum<br>
+      <input type="radio" name="encantamientos3" value="incorrecto"/>Wingardium Leviosa<br>
+      
+    <form>
+       <Button> <a href="#preguntA4">Siguiente</a></Button>
+    </form>
+  </div> 
+
+
+  <div id='preguntA4'>
+    <h1>Pregunta 4</h1>
+    <p>Maldición imperdonable utilizada para torturar físicamente a alguien. Puede llegar a causar mucho dolor en la víctima, hasta el punto de dejarla demente.</p>
+       <input type="radio" name="encantamientos4"    value="incorrecto"/>Avada Kadavra<br>
+       <input type="radio" name="encantamientos4" value="correcto"/>Cruciatus<br>
+       <input type="radio" name="encantamientos4" value="incorrecto"/>imperius<br>
+     
+    <button class="submit" onclick="return handleClick2();" type="submit">Finalizar</button>
+  </div> 
+
+ <!--Rerultados-->
+  <div>
+  <h1>¡Excelente, Digno de Hogwarts!</h1>
+  <img src= 'https://media1.tenor.com/images/32cf1fd6bffb1506f1364e44023cbf47/tenor.gif?itemid=5435633'> 
+  <p>Seguro que serías el orgullo de Remus Lupin. Conoces muy bien todos los encantamientos y podrías proteger a tus amigos de cualquier dementor que se atravesara en su camino. Sigue así y serás una o uno de lxs mejores Hechicerxs de todos los tiempos. </p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+  <div>
+  <h1>Aprendiz comprometido</h1>
+  <img src= 'https://media.giphy.com/media/26gN16cJ6gy4LzZSw/giphy.gif'> 
+  <p>Vaya que conoces el mundo mágico pero se nos están pasando algunos detalles. Seguro que te has esforzado mucho en la clase de Encantamientos, pero ¿qué tal un repaso de la clase de Defensa contra las artes oscuras?</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+  <div>
+  <h1>¡Alerta, recordadora roja!</h1>
+  <img src= 'https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2015/09/21/Recortada/64896-106576-anigif-optimized-5751-1430058081-1-500-207-20150921220001@LaVanguardia-Web.gif'> 
+  <p>Menos mal que llevas una recordadora contigo, seguro que olvidas las cosas con facilidad. El lío ahora será saber ¿qué es exactamente lo que olvidaste?
+  Pero calma, si te sigues juntando con los amigos correctos en Hogwarts, seguro te ayudarán bastante con eso. 
+</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+   
+  <div>
+  <h1>Empezando en el mundo mágico, eh?</h1>
+  <img src= 'https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2015/09/21/Recortada/64881-106553-anigif-enhanced-buzz-19749-1381443066-1-500-197-20150921220001@LaVanguardia-Web.gif'> 
+  <p>Vemos que has abordado el Expresso de Hogwarts, pero no dudamos que te ha costado recordar que tenías que abordarlo en la plataforma 9 ¾ . No te preocupes, seguro que seguirás conociendo más de los encantamientos  que podrían ayudarte a sobrevivir en el mundo mágico. Ten cuidado con esa varita y todo saldrá bien.  
+</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+ <div>
+  <h1>¡En peligo inminente!</h1>
+  <img src= 'https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2015/09/21/Recortada/64888-106565-dementors-kiss-harry-potter-gif-500-213-20150921220001@LaVanguardia-Web.gif'> 
+  <p>¡Por las barbas de Merlín! ¿Qué pasaría si te encuentras a un Dementor en el bosque prohibido? O peor aún, ¿cómo podrías desarmar a un Mortifago que quiere hacerte daño?
+Más vale que conozcas pronto los encantamientos más importantes y pongas atención en tus clases de Hogwarts o podría terminar todo en una tragedia. 
+Nunca es demasiado tarde para empezar a ser una bruja o un mago de excelencia.
+</p>
+  <article>
+     <button onclick="respuesta('Vover al inicio')"> <a href="#volverAlInicio">Volver al inicio</a></button>
+     <button onclick="respuesta('magxs')"> <a href="#triviaMagos">Trivia de Magxs</a></button>
+     <button onclick= "respuesta('encantamientos')"> <a href="#triviaEncantamientos">Trivia de Encantamientos</a> </button> </article>
+   </div>
+
+
+</body>
+</html>y

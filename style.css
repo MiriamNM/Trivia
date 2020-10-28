@@ -1,0 +1,196 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  margin: 20px;
+  font-size: 16px;
+  font-family: Dancing Script, Delius,Shadows Into Light, Delius Swash Caps,sans-serif;
+  background-color: #5F1D2A;
+  font-weight: 400;
+  color: #ffffff; 
+
+  #volverAlInicio:
+  font-family: Dancing Script, Delius,sans-serif; 
+  color: #1C1613
+
+}
+
+
+
+{
+Box-sizing: #volverAlInicio;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#volverAlInicio {
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+}
+
+
+{
+Box-sizing: #triviaMagos;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#triviaMagos {
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#triviaMagos; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: #pregunta2;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#pregunta2 {
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#pregunta2; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: #pregunta3;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#pregunta3 {
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#pregunta3; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: #pregunta4;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#pregunta4 {
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#pregunta4; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: #triviaEncantamientos;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#triviaEncantamientos{
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#triviaEncantamientos; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: #preguntA2;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#preguntA2{
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#preguntA2; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+{
+Box-sizing: preguntA3;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#preguntA3{
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#preguntA; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+
+{
+Box-sizing: #preguntA4;
+margin:0;
+padding: 0;
+outline: none;
+}
+
+#preguntA4{
+max-width: 700px;
+background-color: #ffffff;
+margin: 40px auto;
+padding: 30px;
+border-radius:10%;
+#preguntA4; 
+  font-family: Delius,sans-serif; 
+  color: #5F1D2A
+}
+
+
+button{
+background: #5F1D2A;
+color: #ffffff;
+display:inline-block;
+font-size: 1.25em;
+margin: 20px;
+padding: 10px 0px;
+text-align: center;
+width: 200px;
+text-decoration: none;
+}
